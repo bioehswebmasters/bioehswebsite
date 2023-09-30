@@ -1,25 +1,27 @@
-import bg from '../assets/bg.png';
-import chef from '../assets/chef.png';
-import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
-import knife from '../assets/knife.png';
-import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
-import overlaybg from '../assets/overlaybg.png';
-import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
-import findus from '../assets/findus.png';
-import laurels from '../assets/laurels.png';
-import award01 from '../assets/award01.png';
-import award02 from '../assets/award02.png';
-import award03 from '../assets/award03.png';
-import award05 from '../assets/award05.png';
-import sign from '../assets/sign.png';
-import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
+/*change into officer regular photos, officer silly photos, group photos, recent event photos, and committee photos 
+diversify images into multiple routes ***need to check on the route */
+import bg from '../constants/bg.png';
+import chef from '../constants/chef.png';
+import G from '../constants/G.png';
+import gallery01 from '../constants/gallery01.png';
+import gallery02 from '../constants/gallery02.png';
+import gallery03 from '../constants/gallery03.png';
+import gallery04 from '../constants/gallery04.png';
+import knife from '../constants/knife.png';
+import logo from '../constants/logo.png';
+import menu from '../constants/menu.png';
+import overlaybg from '../constants/overlaybg.png';
+import spoon from '../constants/spoon.svg';
+import welcome from '../constants/welcome.png';
+import findus from '../constants/findus.png';
+import laurels from '../constants/laurels.png';
+import award01 from '../constants/award01.png';
+import award02 from '../constants/award02.png';
+import award03 from '../constants/award03.png';
+import award05 from '../constants/award05.png';
+import sign from '../constants/sign.png';
+import quote from '../constants/quote.png';
+import gericht from '../constants/gericht.png';
 
 export default {
   bg,
