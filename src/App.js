@@ -10,6 +10,7 @@ AboutUs -- Our purpose, what we do, and who does it insert our logo
 UpcomingEvents -- connect our calendar, connect our instagram, 
 RecentEvents -- "month" recap 
 JoinUs -- button for interest form, application, closed or open, disclaimer that it's acceptance based on email.
+***** need to find a way to have join us in the navbar but it will automatically scroll to the home page join us section*****
 Footer -- disclaimer that we are not affiliated with the club, contact us
 */
 
