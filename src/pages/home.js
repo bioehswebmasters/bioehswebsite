@@ -1,26 +1,10 @@
-import React from 'react'
-import { Navbar } from './components'
-import {
-    AboutUs,
-    UpcomingEvents,
-    RecentEvents,
-    JoinUs,
-    Footer,
-  } from './container'
+import React from "react";
 
-  
-
-function Home() {
-  return (
-    <div>
-      <Navbar />
-      <Header />
-      <AboutUs />
-      <UpcomingEvents />
-      <RecentEvents />
-      <JoinUs />
-      <Footer />
-    </div>
-  )
+function home(){
+    return(
+        <div>
+        <h1> Welcome to my upcoming website</h1>
+        </div>
+    )
 }
-export default Home
+export default home;
