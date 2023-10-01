@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CommitteesDropdown from '../Website Functions/CommitteesDropdown';
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/BioEHSC">BioEHSC</Link></li>
-        <li><Link to="/Committees">Committees</Link></li>
+        <li><CommitteesDropdown /></li>
         <li><Link to="/CourseMap">Course Map</Link></li>
         <li><Link to="/Decal">Decal</Link></li>
         <li><Link to="/Leadership">Leadership</Link></li>
