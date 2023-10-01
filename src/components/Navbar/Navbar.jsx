@@ -1,24 +1,24 @@
 import React from 'react'
 import { Nav, NavLink, NavMenu } from './NavbarElements'
-
+//link to pages might be wrong lowkey... check later haha
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/home" activeStyle>
+          <NavLink to="/pages/Home" activeStyle>
             Home
           </NavLink>
-          <NavLink to="/decal" activeStyle>
+          <NavLink to="/pages/Decal" activeStyle>
             Decal
           </NavLink>
-          <NavLink to="/BioEHSC" activeStyle>
+          <NavLink to="/pages/BioEHSC" activeStyle>
             BioEHSC
           </NavLink>
-          <NavLink to="/Committees" activeStyle>
+          <NavLink to="/pages/Committees" activeStyle>
             Committees
           </NavLink>
-          <NavLink to="/leadership" activeStyle>
+          <NavLink to="/pages/Leadership" activeStyle>
             Leadership
           </NavLink>
           <NavLink to="/coursemap" activeStyle>
