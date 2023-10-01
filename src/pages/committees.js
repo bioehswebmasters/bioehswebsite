@@ -3,7 +3,7 @@ import React from "react";
 function Committees(){
     return(
         <div>
-        <h1> Welcome to my upcoming website</h1>
+        <h1> Welcome to committees</h1>
         </div>
     )
 }

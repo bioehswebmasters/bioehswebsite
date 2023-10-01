@@ -1,33 +1,19 @@
-import React from 'react'
-import { Nav, NavLink, NavMenu } from './NavbarElements'
-//link to pages might be wrong lowkey... check later haha
-const Navbar = () => {
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function Navbar() {
   return (
-    <>
-      <Nav>
-        <NavMenu>
-          <NavLink to="/pages/Home" activeStyle>
-            Home
-          </NavLink>
-          <NavLink to="/pages/Decal" activeStyle>
-            Decal
-          </NavLink>
-          <NavLink to="/pages/BioEHSC" activeStyle>
-            BioEHSC
-          </NavLink>
-          <NavLink to="/pages/Committees" activeStyle>
-            Committees
-          </NavLink>
-          <NavLink to="/pages/Leadership" activeStyle>
-            Leadership
-          </NavLink>
-          <NavLink to="/coursemap" activeStyle>
-            Course Map
-          </NavLink>
-        </NavMenu>
-      </Nav>
-    </>
-  )
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/BioEHSC">BioEHSC</Link></li>
+        <li><Link to="/Committees">Committees</Link></li>
+        <li><Link to="/CourseMap">Course Map</Link></li>
+        <li><Link to="/Decal">Decal</Link></li>
+        <li><Link to="/Leadership">Leadership</Link></li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

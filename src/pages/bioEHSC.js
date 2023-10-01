@@ -1,11 +1,16 @@
-//*route to current bioehsc website change in the future
-import React from "react";
+import React, { useEffect } from 'react';
 
-function Bioehsc(){
-    return(
-        <div>
-        <a href="https://bioehs.berkeley.edu/bioehsc/">This page is currently under construction, but click this text to go to the previous BioEHSC website</a>
-        </div>
-    )
+function Bioehsc() {
+  useEffect(() => {
+    window.location.href = 'https://bioehs.berkeley.edu/bioehsc/';
+  }, []);
+
+  return (
+    <div>
+      <h1>Redirecting to old BioEHSC website...</h1>
+      <p>If you are not redirected, please click <a href="https://bioehs.berkeley.edu/bioehsc/">here</a>.</p>
+    </div>
+  );
 }
+
 export default Bioehsc;

@@ -3,7 +3,7 @@ import React from "react";
 function Leadership(){
     return(
         <div>
-        <h1> Welcome to my upcoming website</h1>
+        <h1> Welcome to Leadership page</h1>
         </div>
     )
 }
