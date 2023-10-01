@@ -8,7 +8,7 @@ import Decal from './pages/Decal'
 import Leadership from './pages/Leadership'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'; 
-
+import './App.css';
 
 
 function App() {
