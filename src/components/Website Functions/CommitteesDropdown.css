@@ -1,49 +1,47 @@
 .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropbtn {
-    background-color: #0b345a;
-    color: #bbdefb;
-    padding: 16px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #0b345a;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  position: relative;
+  display: inline-block;
+}
 
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #4174a3;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #0b345a;
-  }
- 
-  
-  
-  
-  
-  
+.dropbtn {
+  background-color: #0b345a;
+  color: #bbdefb;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0b345a;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #4174a3;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Add a hover effect for the .dropbtn class */
+.dropbtn:hover {
+  background-color: #bbdefb;
+  color: #0b345a;
+}
+
+.dropdown:hover.dropdown-content {
+  display: block;
+  background-color: #0b345a;
+}

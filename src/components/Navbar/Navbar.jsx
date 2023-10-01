@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="options">
         <Link to="/BioEHSC">BioEHSC</Link>
-        <CommitteesDropdown />
+        <CommitteesDropdown/>
         <Link to="/CourseMap">Course Map</Link>
         <Link to="/Decal">Decal</Link>
         <Link to="/Leadership">Leadership</Link>

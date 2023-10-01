@@ -3,11 +3,12 @@
     background-color:#0b345a;
     overflow: hidden;
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-end; 
     align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 10px;
   }
   
   .options {
@@ -15,13 +16,14 @@
     align-items: center;
   }
   .options a {
-    color: #bbdefb; /* Lighter blue */
+    color: #bbdefb; 
     text-decoration: none;
     margin: 0 10px;
     font-family: 'Poppins', sans-serif;
   }
   
   .options a:hover {
-    background-color:#0b345a;
+    background-color:#bbdefb;
+    color: #0b345a;
   }
   
