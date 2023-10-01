@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import CommitteesDropdown from '../Website Functions/CommitteesDropdown'
-import './Navbar.css'; 
+import React from 'react';
+import { Link } from 'react-router-dom';
+import CommitteesDropdown from '../Website Functions/CommitteesDropdown';
+import './Navbar.css';
 
 function Navbar() {
   return (
@@ -14,7 +14,7 @@ function Navbar() {
         <Link to="/Leadership">Leadership</Link>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
