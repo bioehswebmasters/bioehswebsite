@@ -12,7 +12,7 @@ function CommitteesDropdown() {
         <a href="#">Projects</a>
       </div>
     </div>
-  )
+  );
 }
 
 export default CommitteesDropdown
