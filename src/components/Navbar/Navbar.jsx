@@ -1,19 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CommitteesDropdown from '../Website Functions/CommitteesDropdown';
+import logo from '../../Images/UniversalClubPictures/BioEHS_ModernLogo.png'; // Adjust the path
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/BioEHSC">BioEHSC</Link></li>
-        <li><CommitteesDropdown /></li>
-        <li><Link to="/CourseMap">Course Map</Link></li>
-        <li><Link to="/Decal">Decal</Link></li>
-        <li><Link to="/Leadership">Leadership</Link></li>
-      </ul>
-    </nav>
+    <nav className="navbar">
+    <div className="logo">
+      <img src={logo} alt="Logo" />
+    </div>
+    <div className="options">
+      <Link to="/BioEHSC">BioEHSC</Link>
+      <CommitteesDropdown />
+      <Link to="/CourseMap">Course Map</Link>
+      <Link to="/Decal">Decal</Link>
+      <Link to="/Leadership">Leadership</Link>
+    </div>
+  </nav>
   );
 }
 

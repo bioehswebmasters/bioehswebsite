@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #1a237e;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  
+  .options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .options a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .options a:hover {
+    background-color: #283593;
+  }
+  
