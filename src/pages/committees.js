@@ -1,5 +1,5 @@
 import React from "react";
-
+//put candidate information as well here
 function committees(){
     return(
         <div>
