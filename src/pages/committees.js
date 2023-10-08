@@ -1,8 +1,6 @@
 import React from "react";
-//import CommitteesDropdown from 'src/components/WebsiteFunctions';
 import CommitteesDropdown from "../components/WebsiteFunctions/CommitteesDropdown";
 //put candidate information as well here
-//<CommitteesDropdown/>
 function Committees(){
     return(
         <div>
