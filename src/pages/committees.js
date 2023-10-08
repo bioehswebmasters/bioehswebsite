@@ -4,6 +4,7 @@ function Committees(){
     return(
         <div>
         <h1> Welcome to committees</h1>
+        <CommitteesDropdown/>
         </div>
     )
 }
