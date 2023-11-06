@@ -35,6 +35,22 @@
       color: #0b345a;
       font-family: 'Poly','Poppins', sans-serif;
     }
+    .textOverLayed .join-button {
+        background-color: #0b345a;
+        color: #fff;
+        font-size: 1em;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: 'Poly','Poppins', sans-serif;
+      }
+      
+      .textOverLayed .join-button:hover {
+        background-color: #bbdefb;
+        color: #0b345a;
+      }
 
     .coverimage {
       position: absolute;
