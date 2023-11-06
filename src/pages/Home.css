@@ -10,12 +10,12 @@
 
   .textOverLayed {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     background-color: rgba(255, 255, 255, 0.393);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     color: #0b345a;
     z-index: 2;
@@ -23,7 +23,7 @@
 
   .textOverLayed h1 {
     font-size: 2em;
-    margin-bottom: 10px;
+    
     color: #0b345a;
     font-family: 'Poly', 'Poppins', sans-serif;
   }
@@ -62,26 +62,89 @@
     object-fit: cover;
   }
 }
-
-  .elibility-container .constitution-button {
+.elibility-container {
+  position: relative;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.elibility-container h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  color: #ffff;
+  font-family: 'Poly', 'Poppins', sans-serif;
+  width: 100%; 
+}
+.prospectiveMembers,
+.nonMemberParticipation {
+  flex-basis: calc(50% - 20px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.prospectiveMembers h1,
+.nonMemberParticipation h1{
+    color: #ffff;
+    font-family: 'Poly', 'Poppins', sans-serif;
+    font-size: 1em;
+}
+.prospectiveMembers p,
+.nonMemberParticipation p {
+    color: #bbdefb;
+    font-family: 'Poly', 'Poppins', sans-serif;
+    font-size: medium;
+}
+.prospectiveMembers b {
+    color: #ffff;
+}
+.upcomingEvents-button {
     background-color: #0b345a;
     color: #fff;
     font-size: 1em;
     padding: 10px 20px;
-    font-family: 'Poly', 'Poppins', sans-serif;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
-    text-decoration: none;
+    font-family: 'Poly', 'Poppins', sans-serif;
   }
 
-  .elibility-container .constitution-button a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .elibility-container .constitution-button:hover {
+  .upcomingEvents-button:hover {
     background-color: #bbdefb;
     color: #0b345a;
   }
+
+
+
+
+.aboutUs-container {
+    position: relative;
+    height: 50vh;
+  }
+.aboutUs-container .constitution-button {
+  background-color: #0b345a;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 20px;
+  font-family: 'Poly', 'Poppins', sans-serif;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.aboutUs-container .constitution-button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.aboutUs-container .constitution-button:hover {
+  background-color: #bbdefb;
+  color: #0b345a;
+}
