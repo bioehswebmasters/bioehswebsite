@@ -12,7 +12,7 @@
   cursor: pointer;
   border: none;
   font-weight: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poly','Poppins', sans-serif;
 }
 .dropdown-content {
   list-style-type: none;

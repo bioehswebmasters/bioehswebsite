@@ -11,10 +11,10 @@ function Navbar() {
         <img src={bioEHSlogo} alt="Logo" />
       </div>
       <div className="options">
+        <Link to="/Decal">Decal</Link>
         <Link to="/BioEHSC">BioEHSC</Link>
         <CommitteesDropdown />
         <Link to="/CourseMap">Course Map</Link>
-        <Link to="/Decal">Decal</Link>
         <Link to="/Leadership">Leadership</Link>
       </div>
     </nav>
