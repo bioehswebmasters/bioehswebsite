@@ -3,7 +3,7 @@
     background-color:#0b345a;
     overflow: visible;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: space-between; 
     align-items: center;
     position: fixed;
     top: 0;
@@ -12,7 +12,12 @@
     
    
   }
-  
+  .logo img {
+    width: 70px; 
+    height: auto; 
+    align-items: left;
+    
+  }
   .options {
     display: flex;
     align-items: center;
