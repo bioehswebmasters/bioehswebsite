@@ -1,4 +1,5 @@
-.ToggleButton {
-    background-color: #0b345a;
-    color: #ffff;
+.name,
+.pronouns {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the margin as needed */
 }

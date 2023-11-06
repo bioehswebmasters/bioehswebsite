@@ -1,36 +1,34 @@
-import Accordion from 'react-bootstrap/Accordion';
-import { useAccordionButton } from 'react-bootstrap/AccordionButton';
-import Card from 'react-bootstrap/Card';
-import './OfficerAccordian.css'
+import React, { useState } from 'react';
 
-function CustomToggle({ children, eventKey }) {
-  const decoratedOnClick = useAccordionButton(eventKey, () =>
-    console.log('totally custom!'),
-  );
+function OfficerAccordian({name, pronouns,image1, image2, text }) {
+  const [showText, setShowText] = useState(false);
+
+  const handleToggle = () => {
+    setShowText(!showText);
+  };
 
   return (
-    <button
-      className='ToggleButton'
-      onClick={decoratedOnClick}
-    >
-      {children}
-    </button>
+    <div className="officer-card">
+        <div className= "nameandpronouns">
+            <h2>{name}</h2> 
+            <h3>{pronouns}</h3>
+        </div>
+      <div className="card" onMouseEnter={handleToggle} onMouseLeave={handleToggle}>
+        {showText ? (
+          <div className="text">
+            <p>{text}</p>
+          </div>
+        ) : (
+          <div className="images">
+            <img src={showText ? image2 : image1} alt="Image 1" />
+          </div>
+        )}
+      </div>
+      <button className="toggle-button" onClick={handleToggle}>
+        More About Me!
+      </button>
+    </div>
   );
 }
 
-function Example() {
-  return (
-    <Accordion defaultActiveKey="0">
-      <Card>
-        <Card.Header>
-          <CustomToggle eventKey="0">More About Me!</CustomToggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="0">
-          <Card.Body>Hello! I'm the body</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
-  );
-}
-
-render(<Example />);
+export default HoverCard;
