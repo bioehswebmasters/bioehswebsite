@@ -59,15 +59,43 @@ function Home() {
             cycle.
           </p>
         </div>
-
-
       </div>
 
       <div className="aboutUs-container">
-      <h1> About Us </h1>
-      <p>The purpose of BioEHS shall be to advance bioengineering within the University of California, Berkeley, and beyond. 
-        It shall confer recognition upon bioengineering students on campus who have demonstrated exceptional talent and exemplary character, and support all bioengineers’ pursuit of success. 
-        It shall also encourage community members to explore and pursue bioengineering in their studies and professional careers. Learn more through our constitution</p>
+        <h1> We Help You Develop </h1>
+        <div className= "qualitiesingrid">
+        <div className="feature">
+        <h2> A Community </h2>
+        <p>
+          Get to know your fellow candidates and the officer team and
+          participate in volunteer and social events that benefit yourself and
+          the community.
+        </p>
+        </div>
+        <div className="feature">
+        <h2>A Network</h2>
+        <p>
+          Meet and network with BioEHS alumni through info-sessions, alumni
+          panels, and general meetings.
+        </p>
+        </div>
+        <div className="feature">
+        <h2> A Niche </h2>
+        <p>
+          Discover or narrow your interests/concentration within BioE by meeting
+          more BioE peers in the classes you’re taking, seeking course advice
+          from BioEHS members, and talking to BioE professors in the field.
+        </p>
+        </div><div className="feature">
+        <h2> Professional Development Skills </h2>
+        <p>
+          Attend professional workshops covering LinkedIn, resumes, technical
+          interviewing, public speaking, or work on hands-on hardware/software
+          projects.
+        </p>
+        </div>
+        </div>
+
         <button className="constitution-button">
           <a
             href="https://docs.google.com/document/d/128hynYuoDcyebJkTh7-hyMTzCPVr_NIyCMC2QJEfHFU/edit#heading=h.21coc93ntare"
@@ -78,6 +106,8 @@ function Home() {
           </a>
         </button>
       </div>
+      <div className="recent-Events"></div>
+      <h1> October Recap! </h1>
     </div>
   )
 }

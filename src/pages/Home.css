@@ -95,7 +95,7 @@
     font-size: 1em;
 }
 .prospectiveMembers p,
-.nonMemberParticipation p, .aboutUs-container p {
+.nonMemberParticipation p, .aboutUs-container p, .feature p {
     color: #bbdefb;
     font-family: 'Poly', 'Poppins', sans-serif;
     font-size: medium;
@@ -130,14 +130,39 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.163);
+   
   }
   .constitution-button {
     display: block;
     margin: 0 auto;
     text-align: center;
   }
+  .qualitiesingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 
+  .feature {
+    width: 100%;
+    padding: 20px;
+    background-color: #0b345a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .feature h2 {
+    margin-bottom: 10px;
+    color: #ffff;
+    font-family: 'Poly', 'Poppins', sans-serif;
+    font-size: 1em;
+  }
+
+    .feature:hover {
+        background-color: rgba(255, 255, 255, 0.393);
+        border-radius: 5px;
+    }
+  
 
 
 
