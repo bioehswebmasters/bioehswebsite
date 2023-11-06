@@ -64,6 +64,10 @@ function Home() {
       </div>
 
       <div className="aboutUs-container">
+      <h1> About Us </h1>
+      <p>The purpose of BioEHS shall be to advance bioengineering within the University of California, Berkeley, and beyond. 
+        It shall confer recognition upon bioengineering students on campus who have demonstrated exceptional talent and exemplary character, and support all bioengineers’ pursuit of success. 
+        It shall also encourage community members to explore and pursue bioengineering in their studies and professional careers. Learn more through our constitution</p>
         <button className="constitution-button">
           <a
             href="https://docs.google.com/document/d/128hynYuoDcyebJkTh7-hyMTzCPVr_NIyCMC2QJEfHFU/edit#heading=h.21coc93ntare"

@@ -3,7 +3,7 @@
   max-height: 100vh;
   overflow-y: auto;
 }
-
+/*controls everything within the image section text buttons image */
 .img-container {
   position: relative;
   height: 100vh;
@@ -23,7 +23,6 @@
 
   .textOverLayed h1 {
     font-size: 2em;
-    
     color: #0b345a;
     font-family: 'Poly', 'Poppins', sans-serif;
   }
@@ -62,7 +61,8 @@
     object-fit: cover;
   }
 }
-.elibility-container {
+/*creates two cells for non members and members*/
+.elibility-container, .aboutUs-container {
   position: relative;
   height: 65vh;
   display: flex;
@@ -70,7 +70,8 @@
   flex-wrap: wrap;
   align-items: center;
 }
-.elibility-container h1 {
+/*changing both containers so we don't repeat too much code */
+.elibility-container h1, .aboutUs-container h1 {
   text-align: center;
   font-size: 2em;
   margin: 0;
@@ -94,15 +95,16 @@
     font-size: 1em;
 }
 .prospectiveMembers p,
-.nonMemberParticipation p {
+.nonMemberParticipation p, .aboutUs-container p {
     color: #bbdefb;
     font-family: 'Poly', 'Poppins', sans-serif;
     font-size: medium;
+    text-align: center;
 }
 .prospectiveMembers b {
     color: #ffff;
 }
-.upcomingEvents-button {
+.upcomingEvents-button, .constitution-button {
     background-color: #0b345a;
     color: #fff;
     font-size: 1em;
@@ -114,37 +116,29 @@
     font-family: 'Poly', 'Poppins', sans-serif;
   }
 
-  .upcomingEvents-button:hover {
+  .upcomingEvents-button:hover, .constitution-button:hover {
     background-color: #bbdefb;
     color: #0b345a;
   }
 
 
-
-
-.aboutUs-container {
+/*aboutUs section*/
+  .aboutUs-container {
     position: relative;
-    height: 50vh;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.163);
   }
-.aboutUs-container .constitution-button {
-  background-color: #0b345a;
-  color: #fff;
-  font-size: 1em;
-  padding: 10px 20px;
-  font-family: 'Poly', 'Poppins', sans-serif;
-  border: none;
-  border-radius: 5px;
-  margin-top: 20px;
-  cursor: pointer;
-  text-decoration: none;
-}
+  .constitution-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-.aboutUs-container .constitution-button a {
-  color: inherit;
-  text-decoration: none;
-}
 
-.aboutUs-container .constitution-button:hover {
-  background-color: #bbdefb;
-  color: #0b345a;
-}
+
+
+
