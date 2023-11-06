@@ -3,6 +3,7 @@ import homeClubImage from '../Images/UniversalClubPictures/MainPagePhoto.jpg';
 import './Home.css';
 function Home() {
   return (
+
 <div className="home-container">
     <div className="img-container">
     <div className="textOverLayed">
@@ -13,6 +14,14 @@ function Home() {
             <button className="join-button">Join Us</button>
         </div>
         <img src={homeClubImage} alt="Home" className="coverimage" />
+        </div>
+        <div className="elibility-container">
+            <h1> Eligibility </h1>
+            <button className="constitution-button">
+            <a href="https://docs.google.com/document/d/128hynYuoDcyebJkTh7-hyMTzCPVr_NIyCMC2QJEfHFU/edit#heading=h.21coc93ntare" target="_blank" rel="noopener noreferrer">
+            Our Constitution
+            </a>
+</button>
         </div>
 </div>
 

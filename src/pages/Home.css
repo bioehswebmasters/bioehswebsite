@@ -3,62 +3,85 @@
   max-height: 100vh;
   overflow-y: auto;
 }
+
 .img-container {
   position: relative;
   height: 100vh;
 
-    .textOverLayed {
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      background-color: rgba(255, 255, 255, 0.393);
-      padding: 20px;
-      border-radius: 10px;
-      color: #0b345a;
-      z-index: 2;
-    }
+  .textOverLayed {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.393);
+    padding: 20px;
+    border-radius: 10px;
+    color: #0b345a;
+    z-index: 2;
+  }
 
-    .textOverLayed h1 {
-      font-size: 2em;
-      margin-bottom: 10px;
-      color: #0b345a;
-      font-family: 'Poly','Poppins', sans-serif;
-    }
+  .textOverLayed h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0b345a;
+    font-family: 'Poly', 'Poppins', sans-serif;
+  }
 
-    .textOverLayed p {
-      font-size: 1.2em;
-      max-width: 600px;
-      margin: 0 auto;
-      line-height: 1.5;
-      color: #0b345a;
-      font-family: 'Poly','Poppins', sans-serif;
-    }
-    .textOverLayed .join-button {
-        background-color: #0b345a;
-        color: #fff;
-        font-size: 1em;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        cursor: pointer;
-        font-family: 'Poly','Poppins', sans-serif;
-      }
-      
-      .textOverLayed .join-button:hover {
-        background-color: #bbdefb;
-        color: #0b345a;
-      }
+  .textOverLayed p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #0b345a;
+    font-family: 'Poly', 'Poppins', sans-serif;
+  }
+  .textOverLayed .join-button {
+    background-color: #0b345a;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Poly', 'Poppins', sans-serif;
+  }
 
-    .coverimage {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  .textOverLayed .join-button:hover {
+    background-color: #bbdefb;
+    color: #0b345a;
+  }
+
+  .coverimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
+  .elibility-container .constitution-button {
+    background-color: #0b345a;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    font-family: 'Poly', 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .elibility-container .constitution-button a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .elibility-container .constitution-button:hover {
+    background-color: #bbdefb;
+    color: #0b345a;
+  }
