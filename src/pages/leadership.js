@@ -4,7 +4,22 @@ import React from "react";
 function Leadership() {
   return (
     <div className="leadership-container">
-      <h1>Welcome to Leadership page</h1>
+          <section id="executive-board">
+        {/* Content for Executive Board */}
+      </section>
+
+      <section id="nonexecutive-board">
+        {/* Content for Non-Executive Board */}
+      </section>
+
+      <section id="assistants">
+        {/* Content for Assistants */}
+      </section>
+
+      <section id="senior-advisers">
+        {/* Content for Senior Advisers */}
+      </section>
+    </div>
     </div>
   );
 }
