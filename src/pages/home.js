@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import homeClubImage from '../Images/UniversalClubPictures/MainPagePhoto.jpg'
 import './Home.css'
+
 function Home() {
+    const eligibilityRef = useRef();
+    function scrollToEligibility() {
+        eligibilityRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
   return (
     <div className="home-container">
       <div className="img-container">
@@ -14,12 +19,12 @@ function Home() {
             engage in volunteer work, professional development, and community
             events.
           </p>
-          <button className="join-button">Join Us</button>
+          <button className="join-button" onClick={scrollToEligibility}>Join Us</button>
         </div>
         <img src={homeClubImage} alt="Home" className="coverimage" />
       </div>
 
-      <div className="elibility-container">
+      <div className="elibility-container" ref={eligibilityRef}>
         <h1> Eligibility </h1>
         <div className="nonMemberParticipation">
           <h1>Bioengineer Opportunities</h1>
@@ -113,3 +118,4 @@ function Home() {
 }
 
 export default Home
+

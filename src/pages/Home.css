@@ -1,3 +1,8 @@
+
+.h1 {
+    font-family: 'Poly', 'Poppins', sans-serif;
+    font-size: 2em;
+}
 .home-container {
   position: relative;
   max-height: 100vh;
@@ -22,9 +27,7 @@
   }
 
   .textOverLayed h1 {
-    font-size: 2em;
     color: #0b345a;
-    font-family: 'Poly', 'Poppins', sans-serif;
   }
 
   .textOverLayed p {
@@ -69,6 +72,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 70px;
 }
 /*changing both containers so we don't repeat too much code */
 .elibility-container h1, .aboutUs-container h1 {
