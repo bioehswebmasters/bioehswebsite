@@ -20,7 +20,7 @@ function Leadership() {
         {/* Content for Senior Advisers */}
       </section>
     </div>
-    </div>
+
   );
 }
 
