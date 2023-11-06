@@ -1,12 +1,12 @@
-
-.h1 {
-    font-family: 'Poly', 'Poppins', sans-serif;
-    font-size: 2em;
-}
 .home-container {
   position: relative;
   max-height: 100vh;
   overflow-y: auto;
+}
+.home-container h1,
+.home-container p {
+  font-family: 'Poly', 'Poppins', sans-serif;
+  font-size: 2em;
 }
 /*controls everything within the image section text buttons image */
 .img-container {
@@ -65,23 +65,24 @@
   }
 }
 /*creates two cells for non members and members*/
-.elibility-container, .aboutUs-container {
+.elibility-container,
+.aboutUs-container,
+.recentEvents {
   position: relative;
   height: 65vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 /*changing both containers so we don't repeat too much code */
-.elibility-container h1, .aboutUs-container h1 {
+.elibility-container h1,
+.aboutUs-container h1 {
   text-align: center;
-  font-size: 2em;
   margin: 0;
   color: #ffff;
-  font-family: 'Poly', 'Poppins', sans-serif;
-  width: 100%; 
+  width: 100%;
 }
 .prospectiveMembers,
 .nonMemberParticipation {
@@ -93,81 +94,89 @@
   text-align: center;
 }
 .prospectiveMembers h1,
-.nonMemberParticipation h1{
-    color: #ffff;
-    font-family: 'Poly', 'Poppins', sans-serif;
-    font-size: 1em;
+.nonMemberParticipation h1 {
+  color: #ffff;
+  font-size: 1em;
 }
 .prospectiveMembers p,
-.nonMemberParticipation p, .aboutUs-container p, .feature p {
-    color: #bbdefb;
-    font-family: 'Poly', 'Poppins', sans-serif;
-    font-size: medium;
-    text-align: center;
+.nonMemberParticipation p,
+.aboutUs-container p,
+.feature p {
+  color: #bbdefb;
+  font-size: medium;
+  text-align: center;
 }
 .prospectiveMembers b {
-    color: #ffff;
+  color: #ffff;
 }
-.upcomingEvents-button, .constitution-button {
-    background-color: #0b345a;
-    color: #fff;
-    font-size: 1em;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-family: 'Poly', 'Poppins', sans-serif;
-  }
+.upcomingEvents-button,
+.constitution-button {
+  background-color: #bbdefb;
+  color: #0b345a;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Poly', 'Poppins', sans-serif;
+}
 
-  .upcomingEvents-button:hover, .constitution-button:hover {
-    background-color: #bbdefb;
-    color: #0b345a;
-  }
-
+.upcomingEvents-button:hover,
+.constitution-button:hover {
+  background-color: #0b345a;
+  color: #ffff;
+}
 
 /*aboutUs section*/
-  .aboutUs-container {
-    position: relative;
-    height: 65vh;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-   
-  }
-  .constitution-button {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .qualitiesingrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
+.aboutUs-container {
+  position: relative;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.constitution-button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.qualitiesingrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 
-  .feature {
-    width: 100%;
-    padding: 20px;
-    background-color: #0b345a;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .feature h2 {
-    margin-bottom: 10px;
-    color: #ffff;
-    font-family: 'Poly', 'Poppins', sans-serif;
-    font-size: 1em;
-  }
+.feature {
+  width: 100%;
+  padding: 20px;
+  background-color: #0b345a;
+  color: #fff;
+  text-align: center;
+}
 
-    .feature:hover {
-        background-color: rgba(255, 255, 255, 0.393);
-        border-radius: 5px;
-    }
-  
+.feature h2 {
+  margin-bottom: 10px;
+  color: #ffff;
+  font-family: 'Poly', 'Poppins', sans-serif;
+  font-size: 1em;
+}
 
+.feature:hover {
+  background-color: rgba(255, 255, 255, 0.393);
+  border-radius: 5px;
+}
 
+.recentEvents {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
 
-
+.recentEvents h1 {
+  align-self: center;
+}

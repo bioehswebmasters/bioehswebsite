@@ -9,6 +9,7 @@ function Home() {
       }
   return (
     <div className="home-container">
+
       <div className="img-container">
         <div className="textOverLayed">
           <h1>Bioengineering Honor Society</h1>
@@ -66,6 +67,8 @@ function Home() {
         </div>
       </div>
 
+
+
       <div className="aboutUs-container">
         <h1> We Help You Develop </h1>
         <div className= "qualitiesingrid">
@@ -100,7 +103,6 @@ function Home() {
         </p>
         </div>
         </div>
-
         <button className="constitution-button">
           <a
             href="https://docs.google.com/document/d/128hynYuoDcyebJkTh7-hyMTzCPVr_NIyCMC2QJEfHFU/edit#heading=h.21coc93ntare"
@@ -111,9 +113,15 @@ function Home() {
           </a>
         </button>
       </div>
-      <div className="recent-Events"></div>
+
+
+      <div className="recentEvents">
       <h1> October Recap! </h1>
+      </div>
+
+      
     </div>
+    
   )
 }
 
