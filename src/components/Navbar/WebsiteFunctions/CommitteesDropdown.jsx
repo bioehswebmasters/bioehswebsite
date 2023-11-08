@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './CommitteesDropdown.css';
+import { Link } from 'react-router-dom';
 const CommitteesDropdown = () => {
   const [showOptions, setShowOptions] = useState(false);
 
@@ -11,9 +12,12 @@ const CommitteesDropdown = () => {
     setShowOptions(false);
   }
 
+
   return (
     <li className="dropdown" onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-      <button className="dropbtn">Committees</button>
+            <Link to="/Committees">
+            <button className="dropbtn">Committees</button>
+        </Link>
       {showOptions && (
         <ul className="dropdown-content">
           <li>Academic</li>
