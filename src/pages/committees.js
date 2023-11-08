@@ -1,5 +1,4 @@
 import React from "react";
-import CommitteesDropdown from "../components/Navbar/WebsiteFunctions/CommitteesDropdown";
 //put candidate information as well here
 function Committees(){
     return(

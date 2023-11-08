@@ -1,15 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useRef } from 'react'
 import homeClubImage from '../Images/UniversalClubPictures/MainPagePhoto.jpg'
 import './Home.css'
+import EventsCarousel from '../components/EventsCarousel/EventsCarousel.js'
 
 function Home() {
-    const eligibilityRef = useRef();
-    function scrollToEligibility() {
-        eligibilityRef.current.scrollIntoView({ behavior: 'smooth' });
-      }
-  return (
-    <div className="home-container">
+  const eligibilityRef = useRef()
+  function scrollToEligibility() {
+    eligibilityRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
 
+  return (
+    <div className="body">
       <div className="img-container">
         <div className="textOverLayed">
           <h1>Bioengineering Honor Society</h1>
@@ -20,7 +21,9 @@ function Home() {
             engage in volunteer work, professional development, and community
             events.
           </p>
-          <button className="join-button" onClick={scrollToEligibility}>Join Us</button>
+          <button className="join-button" onClick={scrollToEligibility}>
+            Join Us
+          </button>
         </div>
         <img src={homeClubImage} alt="Home" className="coverimage" />
       </div>
@@ -67,41 +70,41 @@ function Home() {
         </div>
       </div>
 
-
-
       <div className="aboutUs-container">
         <h1> We Help You Develop </h1>
-        <div className= "qualitiesingrid">
-        <div className="feature">
-        <h2> A Community </h2>
-        <p>
-          Get to know your fellow candidates and the officer team and
-          participate in volunteer and social events that benefit yourself and
-          the community.
-        </p>
-        </div>
-        <div className="feature">
-        <h2>A Network</h2>
-        <p>
-          Meet and network with BioEHS alumni through info-sessions, alumni
-          panels, and general meetings.
-        </p>
-        </div>
-        <div className="feature">
-        <h2> A Niche </h2>
-        <p>
-          Discover or narrow your interests/concentration within BioE by meeting
-          more BioE peers in the classes you’re taking, seeking course advice
-          from BioEHS members, and talking to BioE professors in the field.
-        </p>
-        </div><div className="feature">
-        <h2> Professional Development Skills </h2>
-        <p>
-          Attend professional workshops covering LinkedIn, resumes, technical
-          interviewing, public speaking, or work on hands-on hardware/software
-          projects.
-        </p>
-        </div>
+        <div className="qualitiesingrid">
+          <div className="feature">
+            <h2> A Community </h2>
+            <p>
+              Get to know your fellow candidates and the officer team and
+              participate in volunteer and social events that benefit yourself
+              and the community.
+            </p>
+          </div>
+          <div className="feature">
+            <h2>A Network</h2>
+            <p>
+              Meet and network with BioEHS alumni through info-sessions, alumni
+              panels, and general meetings.
+            </p>
+          </div>
+          <div className="feature">
+            <h2> A Niche </h2>
+            <p>
+              Discover or narrow your interests/concentration within BioE by
+              meeting more BioE peers in the classes you’re taking, seeking
+              course advice from BioEHS members, and talking to BioE professors
+              in the field.
+            </p>
+          </div>
+          <div className="feature">
+            <h2> Professional Development Skills </h2>
+            <p>
+              Attend professional workshops covering LinkedIn, resumes,
+              technical interviewing, public speaking, or work on hands-on
+              hardware/software projects.
+            </p>
+          </div>
         </div>
         <button className="constitution-button">
           <a
@@ -114,16 +117,15 @@ function Home() {
         </button>
       </div>
 
-
-      <div className="recentEvents">
-      <h1> October Recap! </h1>
-      </div>
-
       
+      <div className="recentEvent-container">
+        <h1>October Recap!</h1>
+        <div className="carousel-container">
+        <EventsCarousel eventFolder="Candidate Retreat" />
+        </div>
+      </div>
     </div>
-    
   )
 }
 
 export default Home
-
