@@ -3,6 +3,10 @@ import homeClubImage from '../Images/UniversalClubPictures/MainPagePhoto.jpg'
 import './Home.css'
 import EventsCarousel from '../components/EventsCarousel/EventsCarousel.js'
 
+
+//to add carasoul fill in the name of the folder at the eventscarousel section
+//go into eventscarousel and change the pathway 
+//<img src={require(`../../Images/Events/Fall2023/October2023/${eventFolder}/${image}`)} height='300'
 function Home() {
   const eligibilityRef = useRef()
   function scrollToEligibility() {
@@ -117,7 +121,7 @@ function Home() {
         </button>
       </div>
 
-      
+
       <div className="recentEvent-container">
         <h1>October Recap!</h1>
         <div className="carousel-container">
