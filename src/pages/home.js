@@ -128,7 +128,7 @@ function Home() {
         </button>
       </div>
 
-      <div className="recentEvent-container">
+      {/* <div className="recentEvent-container">
 
           <h1>October Recap!</h1>
        
@@ -136,7 +136,7 @@ function Home() {
           <EventsCarousel eventFolder="Candidate Retreat" />
           <EventsCarousel eventFolder="GM1" />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
