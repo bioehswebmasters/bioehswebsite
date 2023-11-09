@@ -77,7 +77,7 @@
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 50px;
-  overflow: hidden;
+  overflow: visible;
 
   
 }
