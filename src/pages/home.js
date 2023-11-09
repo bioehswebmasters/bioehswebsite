@@ -3,10 +3,14 @@ import homeClubImage from '../Images/UniversalClubPictures/MainPagePhoto.jpg'
 import './Home.css'
 import EventsCarousel from '../components/EventsCarousel/EventsCarousel.js'
 
-
+/*////////////////////////////////////////////////////////////////////////////////////////////
+updating images on the home page (monthly)
 //to add carasoul fill in the name of the folder at the eventscarousel section
 //go into eventscarousel and change the pathway 
+//aka change fall2023/october2023 to whatever file name
 //<img src={require(`../../Images/Events/Fall2023/October2023/${eventFolder}/${image}`)} height='300'
+//make sure the name of the images are the same
+///////////////////////////////////////////////////////////////////////////////////////////*/
 function Home() {
   const eligibilityRef = useRef()
   function scrollToEligibility() {
