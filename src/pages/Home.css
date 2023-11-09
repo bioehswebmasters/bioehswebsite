@@ -68,8 +68,7 @@
 }
 /*creates two cells for non members and members*/
 .elibility-container,
-.aboutUs-container,
-.recentEvents {
+.aboutUs-container {
   position: relative;
   height: 65vh;
   display: flex;
@@ -179,6 +178,7 @@
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 
