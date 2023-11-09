@@ -136,7 +136,9 @@ function Home() {
       </div> 
        
         <div className="carousel-container">
+          <p>Candidate Retreat</p>
           <EventsCarousel eventFolder="Candidate Retreat" />
+          <p>General Meeting 1</p>
           <EventsCarousel eventFolder="GM1" />
         </div>
       
