@@ -2,7 +2,7 @@
   background-color: #0b345a;
   position: relative;
   height: 100%;
-  overflow-y: auto;
+  /*overflow-y: auto;*/
 }
 
 .body h1,
@@ -77,6 +77,8 @@
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 50px;
+  overflow: hidden;
+
   
 }
 /*changing both containers so we don't repeat too much code */
