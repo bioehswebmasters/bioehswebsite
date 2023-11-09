@@ -14,11 +14,14 @@ updating images on the home page (monthly)
 function Home() {
   const eligibilityRef = useRef()
   function scrollToEligibility() {
-    const topOffset = -80; // Adjust this value to change the scroll distance
-    eligibilityRef.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-    window.scrollBy(0, topOffset);
+    const topOffset = -80 // Adjust this value to change the scroll distance
+    eligibilityRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    })
+    window.scrollBy(0, topOffset)
   }
-  
 
   return (
     <div className="body">
@@ -128,7 +131,7 @@ function Home() {
         </button>
       </div>
 
-      {/* <div className="recentEvent-container">
+      <div className="recentEvent-container">
 
           <h1>October Recap!</h1>
        
@@ -136,7 +139,7 @@ function Home() {
           <EventsCarousel eventFolder="Candidate Retreat" />
           <EventsCarousel eventFolder="GM1" />
         </div>
-      </div> */}
+      </div> 
     </div>
   )
 }

@@ -2,7 +2,7 @@
   background-color: #0b345a;
   position: relative;
   height: 100%;
-  /*overflow-y: auto;*/
+  overflow-y: auto;
 }
 
 .body h1,
@@ -10,6 +10,7 @@
   font-family: 'Poly', 'Poppins', sans-serif;
   font-size: 2em;
   color: #fff;
+  text-align: center;
 }
 /*controls everything within the image section text buttons image */
 .img-container {
@@ -71,7 +72,7 @@
 .elibility-container,
 .aboutUs-container {
   position: relative;
-  height: 65vh;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -142,7 +143,7 @@
 /*aboutUs section*/
 .aboutUs-container {
   position: relative;
-  height: 65vh;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
