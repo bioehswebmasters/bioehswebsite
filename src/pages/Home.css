@@ -177,7 +177,7 @@
 
 .recentEvent-container {
   position: relative;
-  height: 65vh;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -187,10 +187,6 @@
 }
 
 
-.carousel-container {
-  margin-top: 200px;
-  
-}
 
 
 
