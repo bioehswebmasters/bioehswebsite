@@ -132,14 +132,14 @@ function Home() {
       </div>
 
       <div className="recentEvent-container">
-
-          <h1>October Recap!</h1>
+      <h1>October Events</h1>
+      </div> 
        
         <div className="carousel-container">
           <EventsCarousel eventFolder="Candidate Retreat" />
           <EventsCarousel eventFolder="GM1" />
         </div>
-      </div> 
+      
     </div>
   )
 }
