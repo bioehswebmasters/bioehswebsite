@@ -10,7 +10,9 @@ import EventsCarousel from '../components/EventsCarousel/EventsCarousel.js'
 function Home() {
   const eligibilityRef = useRef()
   function scrollToEligibility() {
-    eligibilityRef.current.scrollIntoView({ behavior: 'smooth' })
+    const topOffset = -50; // Adjust this value to change the scroll distance
+    eligibilityRef.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    window.scrollBy(0, topOffset);
   }
 
   return (
@@ -121,11 +123,12 @@ function Home() {
         </button>
       </div>
 
-
+      
       <div className="recentEvent-container">
-        <h1>October Recap!</h1>
+      <h1>October Recap!</h1>
         <div className="carousel-container">
         <EventsCarousel eventFolder="Candidate Retreat" />
+        <EventsCarousel eventFolder="GM1" />
         </div>
       </div>
     </div>
