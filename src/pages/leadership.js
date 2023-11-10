@@ -16,7 +16,7 @@ function Leadership() {
         {/* Content for Assistants */}
       </section>
 
-      <section id="senior-advisers">
+      <section id="senior-advisors">
         {/* Content for Senior Advisers */}
       </section>
     </div>

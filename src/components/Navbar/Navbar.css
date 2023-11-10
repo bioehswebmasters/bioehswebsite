@@ -33,5 +33,6 @@
   .options a:hover {
     background-color:#bbdefb;
     color: #0b345a;
+    border-radius: 5px;
   }
   
