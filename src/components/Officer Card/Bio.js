@@ -2,12 +2,12 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
-function ToggleButton() {
+function Bio() {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <Button variant="outline-light"
+      <Button variant="outline-dark"
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
@@ -25,4 +25,4 @@ function ToggleButton() {
   );
 }
 
-export default Example;
+export default Bio;

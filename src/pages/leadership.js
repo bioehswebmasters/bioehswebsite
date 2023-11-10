@@ -1,13 +1,13 @@
-import React from "react";
-import OfficerCard from "../components/Officer Card/Card";
+
+import OfficerCard from '../components/Officer Card/Card.js'; 
 import './Leadership.css';
 
 function Leadership() {
-  // Sample officer data 
+  // Sample officer data
   const officers = [
-    { name: "Officer 1", position: "President" },
-    { name: "Officer 2", position: "Vice President" },
-    { name: "Officer 3", position: "Treasurer" },
+    { id: 1, name: 'Officer 1', position: 'President' },
+    { id: 2, name: 'Officer 2', position: 'Vice President' },
+    { id: 3, name: 'Officer 3', position: 'Treasurer' },
     // ... add more officers
   ];
 
@@ -34,24 +34,22 @@ function Leadership() {
           {/* Content for Executive Board */}
           {officerRows.map((row, rowIndex) => (
             <div key={rowIndex} className="officer-cards-container">
-              {row.map((officer, index) => (
-                <OfficerCard key={index} name={officer.name} position={officer.position} />
+              {row.map((officer) => (
+                <OfficerCard key={officer.id} name={officer.name} position={officer.position} />
               ))}
             </div>
           ))}
         </section>
-      <section id="nonexecutive-board">
-        {/* Content for Non-Executive Board */}
-      </section>
-
-      <section id="assistants">
-        {/* Content for Assistants */}
-      </section>
-
-      <section id="senior-advisors">
-        {/* Content for Senior Advisers */}
-      </section>
-    </div>
+        <section id="nonexecutive-board">
+          {/* Content for Non-Executive Board */}
+        </section>
+        <section id="assistants">
+          {/* Content for Assistants */}
+        </section>
+        <section id="senior-advisors">
+          {/* Content for Senior Advisers */}
+        </section>
+      </div>
     </div>
   );
 }
