@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 import Card from 'react-bootstrap/Card';
 
-function OfficerCard({ id, name, position, pronouns, bio }) {
+function OfficerCard({ id, name, position }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -12,10 +12,7 @@ function OfficerCard({ id, name, position, pronouns, bio }) {
       <Card.Img variant="top" src="holder.js/100px180" alt="Officer's Image" />
       <Card.Body>
         <Card.Title>{position}</Card.Title>
-        <Card.Header style={{ display: 'flex', justifyContent: 'space-between' }}>
-  <span style={{ textAlign: 'left' }}>{name}</span>
-  <span style={{ textAlign: 'right' }}>{pronouns}</span>
-</Card.Header>
+        <Card.Header>{name}</Card.Header>
         <Button
           variant="outline-dark"
           onClick={() => setOpen(!open)}
@@ -27,7 +24,9 @@ function OfficerCard({ id, name, position, pronouns, bio }) {
         <Collapse in={open}>
           <div id={`example-collapse-text-${id}`}>
             {/* Your specific content for each card */}
-            {bio}
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+            labore wes anderson cred nesciunt sapiente ea proident.
           </div>
         </Collapse>
       </Card.Body>

@@ -5,11 +5,9 @@ import './Leadership.css';
 function Leadership() {
   // Sample officer data
   const officers = [
-    { id: 1, name: 'Rhea Sood', position: 'President',  pronouns: 'She/her', bio: 'blahhh blahhh' },
-    { id: 2, name: 'Anya Raju', position: 'External Vice President',  pronouns: 'She/her', bio: 'boop' },
-    { id: 3, name: 'Vienna Huang', position: 'Secretary',  pronouns: 'She/her', bio: 'biiii' },
-    { id: 4, name: 'Viviana Tran', position: 'Webmaster', pronouns: 'She/her', bio: 'miiii'},
-    
+    { id: 1, name: 'Officer 1', position: 'President' },
+    { id: 2, name: 'Officer 2', position: 'Vice President' },
+    { id: 3, name: 'Officer 3', position: 'Treasurer' },
     // ... add more officers
   ];
 
@@ -37,7 +35,7 @@ function Leadership() {
           {officerRows.map((row, rowIndex) => (
             <div key={rowIndex} className="officer-cards-container">
               {row.map((officer) => (
-                <OfficerCard key={officer.id} name={officer.name} position={officer.position} bioe ={officer.bio}/>
+                <OfficerCard key={officer.id} name={officer.name} position={officer.position} />
               ))}
             </div>
           ))}
