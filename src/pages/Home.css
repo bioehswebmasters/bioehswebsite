@@ -190,7 +190,15 @@
   justify-content: space-between;
   align-items: left;
 }
+.google-calendar-container {
+  text-align: center;
+}
 
+.center-iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

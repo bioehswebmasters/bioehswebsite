@@ -130,18 +130,27 @@ function Home() {
           </a>
         </button>
       </div>
-
-      <div className="recentEvent-container">
-      <h1>October Events</h1>
-      </div> 
-       
-        <div className="carousel-container">
-          <p>Candidate Retreat</p>
-          <EventsCarousel eventFolder="Candidate Retreat" />
-          <p>General Meeting 1</p>
-          <EventsCarousel eventFolder="GM1" />
+      <div className="google-calendar-container">
+        <h1>Upcoming Events</h1>
+        <div className="center-iframe">
+          <iframe
+            title="BioEHS Google Calendar"
+            src="https://calendar.google.com/calendar/embed?src=bioehs%40gmail.com&ctz=America%2FLos_Angeles"
+            width="800"
+            height="600"
+          ></iframe>
         </div>
-      
+      </div>
+      <div className="recentEvent-container">
+        <h1>October Events</h1>
+      </div>
+
+      <div className="carousel-container">
+        <p>Candidate Retreat</p>
+        <EventsCarousel eventFolder="Candidate Retreat" />
+        <p>General Meeting 1</p>
+        <EventsCarousel eventFolder="GM1" />
+      </div>
     </div>
   )
 }
