@@ -9,23 +9,25 @@ const CommitteesCarousel = ({ committeefolder, committee, bios }) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <Carousel className="custom-carousel">
-            {images.map((image, index) => (
-                <Carousel.Item key={index}>
-                    <div className="custom-image-container">
-                        <img
-                            src={require(`../../Images/CommitteeImages/Fall2023/${committeefolder}/${image}`)}
-                            alt={`Slide ${index + 1}`}
-                            className="custom-image"
-                        />
-                    </div>
-                    <Carousel.Caption>
-                        <h3>Slide {index + 1}</h3>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            ))}
+        <div className="custom-carousel-container">
+            <Carousel className="custom-carousel">
+                {images.map((image, index) => (
+                    <Carousel.Item key={index}>
+                        <div className="custom-image-container">
+                            <img
+                                src={require(`../../Images/CommitteeImages/Fall2023/${committeefolder}/${image}`)}
+                                alt={`Slide ${index + 1}`}
+                                className="custom-image"
+                            />
+                        </div>
+                        <Carousel.Caption>
+                            <h3>Slide {index + 1}</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                ))}
+            </Carousel>
             <Button
-                variant="outline-dark"
+                className="custom-button"
                 onClick={() => setOpen(!open)}
                 aria-controls={`example-collapse-text`}
                 aria-expanded={open}
@@ -33,11 +35,11 @@ const CommitteesCarousel = ({ committeefolder, committee, bios }) => {
                 {committee}
             </Button>
             <Collapse in={open}>
-                <div id={`example-collapse-text`}>
+                <div id={`committee-bios`}>
                     {bios}
                 </div>
             </Collapse>
-        </Carousel>
+        </div>
     );
 };
 
