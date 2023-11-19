@@ -4,7 +4,7 @@ import React from "react";
 function CourseMap(){
     return(
         <div>
-        <h1> Welcome to coursemap</h1>
+        <h1> Bioengineering CourseMap</h1>
         </div>
     )
 }
