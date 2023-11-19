@@ -1,7 +1,8 @@
 import React from 'react';
 import './Committees.css';
 import CommitteesCarousel from '../components/CommitteesCarousel/CommitteesCarousel.js';
-
+/*to change bio directly type in... to change photos, go into committees carousel, committees carousel. js and change src={require(`../../Images/CommitteeImages/Fall2023/${committeefolder}/${image}`)} to the pathway you want
+add images under that photo name image1.jpg image2.jpg etc up to five... it will auto update*/
 function Committees() {
     return (
         <body>
