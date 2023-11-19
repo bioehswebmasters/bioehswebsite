@@ -1,11 +1,12 @@
-import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import React, { useState } from 'react';
+import { Carousel, Button, Collapse } from 'react-bootstrap';
 import CommitteeImages from './CommitteeImages.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './CommitteesCarousel.css'; // Add this import
+import './CommitteesCarousel.css';
 
-const CommitteesCarousel = ({ committeefolder }, {committee}, {bios}) => {
+const CommitteesCarousel = ({ committeefolder, committee, bios }) => {
     const images = CommitteeImages(committeefolder);
+    const [open, setOpen] = useState(false);
 
     return (
         <Carousel className="custom-carousel">
@@ -24,20 +25,19 @@ const CommitteesCarousel = ({ committeefolder }, {committee}, {bios}) => {
                 </Carousel.Item>
             ))}
             <Button
-          variant="outline-dark"
-          onClick={() => setOpen(!open)}
-          aria-controls={`example-collapse-text-${id}`}
-          aria-expanded={open}
-        >
-          {committee}
-        </Button>
-        <Collapse in={open}>
-          <div id={`example-collapse-text-${id}`}>
-            {bios}
-          </div>
-        </Collapse>
+                variant="outline-dark"
+                onClick={() => setOpen(!open)}
+                aria-controls={`example-collapse-text`}
+                aria-expanded={open}
+            >
+                {committee}
+            </Button>
+            <Collapse in={open}>
+                <div id={`example-collapse-text`}>
+                    {bios}
+                </div>
+            </Collapse>
         </Carousel>
-        
     );
 };
 
