@@ -4,7 +4,9 @@ import React from "react";
 
 function CourseMap(){
     return(
-        <div>
+        <body>
+        <div className="courseMap
+        ">
         <h1> Bioengineering CourseMap</h1>
         <img
         //need to check path
@@ -13,6 +15,7 @@ function CourseMap(){
         style={{ width: "100%", maxWidth: "800px", height: "auto" }}
       />
         </div>
+        </body>
     )
 }
 export default CourseMap;
