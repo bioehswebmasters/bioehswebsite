@@ -2,10 +2,9 @@ import React from "react";
 //put candidate information as well here
 function Committees(){
     return(
-        <div>
-        <h1> Welcome to committees</h1>
-        
-        </div>
+        <body>
+        <h1> Bioengineering Honor Society's Committees</h1>
+        </body>
     )
 }
 export default Committees;
