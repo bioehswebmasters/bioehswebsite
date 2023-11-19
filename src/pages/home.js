@@ -57,7 +57,7 @@ function Home() {
           <button className="upcomingEvents-button">
             {/*add google calendar link to events for bioengineers*/}
             <a
-              href="https://docs.google.com/document/d/128hynYuoDcyebJkTh7-hyMTzCPVr_NIyCMC2QJEfHFU/edit#heading=h.21coc93ntare"
+              href="https://calendar.google.com/calendar/embed?src=bioehs%40gmail.com&ctz=America%2FLos_Angeles"
               target="_blank"
               rel="noopener noreferrer"
             >

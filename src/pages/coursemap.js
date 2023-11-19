@@ -8,7 +8,7 @@ function CourseMap(){
         <h1> Bioengineering CourseMap</h1>
         <img
         //need to check path
-        src="./CourseMap/tempCourseMap.jpg"
+        src="../CourseMap/tempCourseMap.jpg"
         alt="Bioengineering CourseMap"
         style={{ width: "100%", maxWidth: "800px", height: "auto" }}
       />
