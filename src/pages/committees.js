@@ -70,7 +70,9 @@ function Committees() {
                     committee="Projects"
                     bios={
                         <>
-                            <h4>We werent sent a bio so this is a temporary bio</h4>
+                            <p>Projects Committee holds workshops where new bioengineers learn practical skills, such as how to use Arduinos, CAD, and AlphaFold. Candidates 
+                                in Projects Committee build a project of their choosing over the course of the semester, learning and applying new skills. 
+                                These projects investigate a problem or demonstrate bioengineering concepts. BioEHS often takes past projects to outreach workshops and events as a learning tool for high schoolers.</p>
                         </>
                     }
                 />
