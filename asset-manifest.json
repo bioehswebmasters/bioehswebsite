@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bioehswebsite/static/css/main.c4566848.css",
-    "main.js": "/bioehswebsite/static/js/main.28ae7721.js",
+    "main.js": "/bioehswebsite/static/js/main.6fc104dc.js",
     "static/media/image6.jpg": "/bioehswebsite/static/media/image6.76ee3aadc86c368ce3f2.jpg",
     "static/media/image3.jpg": "/bioehswebsite/static/media/image3.dd1423c8fe91a3c8e4af.jpg",
     "static/media/image8.jpg": "/bioehswebsite/static/media/image8.543fb12bcf3c194f2a43.jpg",
@@ -16,10 +16,10 @@
     "static/media/BioEHSLogo.png": "/bioehswebsite/static/media/BioEHSLogo.5f0c23950ed60486a4c6.png",
     "index.html": "/bioehswebsite/index.html",
     "main.c4566848.css.map": "/bioehswebsite/static/css/main.c4566848.css.map",
-    "main.28ae7721.js.map": "/bioehswebsite/static/js/main.28ae7721.js.map"
+    "main.6fc104dc.js.map": "/bioehswebsite/static/js/main.6fc104dc.js.map"
   },
   "entrypoints": [
     "static/css/main.c4566848.css",
-    "static/js/main.28ae7721.js"
+    "static/js/main.6fc104dc.js"
   ]
 }
