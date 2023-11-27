@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bioehswebsite/static/css/main.c4566848.css",
+    "main.js": "/bioehswebsite/static/js/main.28ae7721.js",
+    "static/media/image6.jpg": "/bioehswebsite/static/media/image6.76ee3aadc86c368ce3f2.jpg",
+    "static/media/image3.jpg": "/bioehswebsite/static/media/image3.dd1423c8fe91a3c8e4af.jpg",
+    "static/media/image8.jpg": "/bioehswebsite/static/media/image8.543fb12bcf3c194f2a43.jpg",
+    "static/media/image10.jpg": "/bioehswebsite/static/media/image10.7ecb2ccdb8e3f1cab168.jpg",
+    "static/media/image1.jpg": "/bioehswebsite/static/media/image1.89775d0146f9a996de3a.jpg",
+    "static/media/image7.jpg": "/bioehswebsite/static/media/image7.105dc2c772d8c4a39598.jpg",
+    "static/media/image9.jpg": "/bioehswebsite/static/media/image9.69c76f4725f6e3bf9670.jpg",
+    "static/media/image4.jpg": "/bioehswebsite/static/media/image4.25affd10543adc0c7a20.jpg",
+    "static/media/image2.jpg": "/bioehswebsite/static/media/image2.937dc2995fbdeae7083d.jpg",
+    "static/media/image5.jpg": "/bioehswebsite/static/media/image5.ccce3f728c398bd2e992.jpg",
+    "static/media/MainPagePhoto.jpg": "/bioehswebsite/static/media/MainPagePhoto.2f6e277fd18542d67fff.jpg",
+    "static/media/BioEHSLogo.png": "/bioehswebsite/static/media/BioEHSLogo.5f0c23950ed60486a4c6.png",
+    "index.html": "/bioehswebsite/index.html",
+    "main.c4566848.css.map": "/bioehswebsite/static/css/main.c4566848.css.map",
+    "main.28ae7721.js.map": "/bioehswebsite/static/js/main.28ae7721.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4566848.css",
+    "static/js/main.28ae7721.js"
+  ]
+}
