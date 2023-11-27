@@ -164,7 +164,7 @@
 
 
 
-"deploy": "gh-pages -d build",
+"deploy": "gh-pages -d build -b gh-pages",
     
 
 
